@@ -32,8 +32,15 @@ public class Main {
         System.out.println(point2);
 
     //Initializing String
-        String message = "This is the review of Java Programming";
+        String message = "  This is the review of Java Programming!!";
         System.out.println(message);
+
+    //Checking differnts String methods
+        System.out.println(message.indexOf("T"));
+        System.out.println(message.length());
+        System.out.println(message.replace("!","*"));
+        System.out.println(message.trim());
+        System.out.println(message.concat("  love this challenge"));
 
     }
 }
