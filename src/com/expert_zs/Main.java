@@ -1,5 +1,7 @@
 package com.expert_zs;
 
+import java.util.Date;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -11,7 +13,7 @@ public class Main {
         int herAge = myAge-3;
         System.out.println(herAge);
 
-        //Initializing variables with primitive data type
+    //Initializing variables with primitive data type
         byte age = 26;
         int number = 426_554_554;
         long viewsCount = 3_426_554_554L;
@@ -20,5 +22,9 @@ public class Main {
         char letter = 'A';
         boolean isEligeble = true;
         System.out.println(isEligeble);
+
+    //Initializing reference type
+        Date now = new Date();
+        System.out.println(now);
     }
 }
