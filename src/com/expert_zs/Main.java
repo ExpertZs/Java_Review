@@ -1,5 +1,6 @@
 package com.expert_zs;
 
+import java.awt.*;
 import java.util.Date;
 
 public class Main {
@@ -26,5 +27,11 @@ public class Main {
     //Initializing reference type
         Date now = new Date();
         System.out.println(now);
+        Point point1 = new Point(1,2);
+        Point point2 = point1;
+        point1.x=5;
+        System.out.println(point1);
+        System.out.println(point2);
+
     }
 }
