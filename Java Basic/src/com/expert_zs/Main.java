@@ -42,5 +42,15 @@ public class Main {
         System.out.println(message.trim());
         System.out.println(message.concat("  love this challenge"));
 
+    //Escape Sequences
+        String message1 = "Hello \"Sweetheart\"";
+        String message2 = "C:\\My Disk\\....";
+        String message3 = "C:\nMy Disk\\....";
+        String message4 = "C:\tMy Disk\\....";
+        System.out.println(message1);
+        System.out.println(message2);
+        System.out.println(message3);
+        System.out.println(message4);
+
     }
 }
